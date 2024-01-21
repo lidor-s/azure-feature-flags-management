@@ -1,0 +1,80 @@
+.featureFlag_listContainer {
+	min-width: 350px;
+	margin-top: 10px;
+}
+
+.featureFlag_inputContainer {
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.featureFlag_inputElement {
+	padding-left: 10px;
+}
+
+.featureFlag_inputSmallElement {
+	padding-top: 2px;
+}
+
+.featureFlag_valueInputDropDown {
+	width: 60px;
+	height: 22px;
+}
+
+.featureFlag_valueInputTextBox {
+	width: 52px;
+}
+
+.featureFlag_nameInput {
+	width: 200px;
+}
+
+.featureFlag_clickableContainer {
+	padding-top: 5px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.featureFlag_buttonIcon {
+	width: 13px;
+	height: 13px;
+}
+
+.featureFlag_removeContainer {
+	padding-top: 4px;
+}
+
+.featureFlag_removeIcon {
+	width: 13px;
+	height: 15px;
+}
+
+.featureFlag_addContainer {
+	display: flex;
+	float: left;
+	padding-left: 4px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.featureFlag_addIcon {
+	width: 13px;
+	padding-top: 2px;
+}
+
+.featureFlag_addText {
+	padding-left: 5px;
+}
+
+.featureFlag_apply {
+	float: right;
+	margin-bottom: 10px;
+}
+
+.requiredInput {
+	border: 2px solid red;
+}
+
+.requiredInput:focus {
+	outline: none !important;
+}

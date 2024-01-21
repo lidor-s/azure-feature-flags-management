@@ -1,0 +1,11 @@
+{
+  "name": "Azure Feature Flags Management",
+  "description": "Manage feature flags in Azure",
+  "version": "1.1",
+  "manifest_version": 3,
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "AzureFeatureFlagsExtension.html",
+    "default_icon": "/Images/Azure_FeatureFlags.png"
+  }
+}
