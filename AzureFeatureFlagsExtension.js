@@ -16,7 +16,7 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs)
 		let currentFeatureFlagsFromUrl = [];
 
 		if (isAzurePortal(activeTabUrl)) {
-			currentFeatureFlagsFromUrl = convertfFeatureFlagsFromUrlToObject(getCurrentFeatureFlags(activeTabUrl));
+			currentFeatureFlagsFromUrl = convertFeatureFlagsFromUrlToObject(getCurrentFeatureFlags(activeTabUrl));
 			document.getElementById("navigateButton").innerText = "Apply";
 			storedFeatureFlags.forEach(featureFlag => { featureFlag.isEnabled = false; });
 		}
@@ -212,7 +212,7 @@ function isAzurePortal(url)
 	return url.includes("portal.azure") || url.includes("df.onecloud.azure-test.net");
 }
 
-function convertfFeatureFlagsFromUrlToObject(featureFlags)
+function convertFeatureFlagsFromUrlToObject(featureFlags)
 {
 	return featureFlags.map(featureFlag => {
 		let featureFlagSplitted = featureFlag.split("=");
