@@ -10,3 +10,5 @@ Save your favorite feature flags for future use! Each feature flag can be saves 
 Use to navigate to new web page or apply to current Azure portal web page.
 
 CWS extension link: https://chromewebstore.google.com/detail/azure-feature-flags-manag/dnpchpnfldociemdamdagmplceldbfol.
+
+kilzi
